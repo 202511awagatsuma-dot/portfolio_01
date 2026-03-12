@@ -316,6 +316,16 @@ a:hover { color: var(--black); }
   margin-bottom: 0;
 }
 
+.fill-content ul {
+  margin: 8px 0 0;
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+.fill-content li {
+  margin-bottom: 4px;
+}
+
 .ascii-diagram {
   overflow-x: auto;
 }

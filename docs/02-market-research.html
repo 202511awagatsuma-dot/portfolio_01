@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>マーケットリサーチ -  プロジェクトアーカイブ</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+  <title>マーケットリサーチ - プロジェクトアーカイブ</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
   <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
   <button class="hamburger" aria-label="メニュー">
     <span></span><span></span><span></span>
   </button>
 
   <div class="page-wrapper">
-  <aside class="sidebar" data-nav-level="docs"></aside>
+    <aside class="sidebar" data-nav-level="docs"></aside>
 
     <main class="main-content">
       <header class="doc-header">
@@ -38,7 +41,8 @@
           </div>
           <div class="external-link-input">
             <input type="text" placeholder="https://docs.google.com/spreadsheets/d/xxxxx" id="external-link-02">
-            <a href="#" class="link-btn" onclick="window.open(document.getElementById('external-link-02').value || 'https://docs.google.com', '_blank'); return false;">
+            <a href="#" class="link-btn"
+              onclick="window.open(document.getElementById('external-link-02').value || 'https://docs.google.com', '_blank'); return false;">
               <span class="material-symbols-outlined">open_in_new</span>
               開く
             </a>
@@ -59,27 +63,39 @@
         <section class="section" id="sec1">
           <h2 class="section-title"><span class="section-icon">1</span> 3C分析</h2>
 
-        <div class="fill-block">
-          <div class="fill-label">Customer（顧客） <span class="required">必須</span></div>
-          <div class="fill-hint">ターゲット顧客の特徴・ニーズ・行動パターン</div>
-          <div class="fill-content">
-            <p>（顧客分析を記載）</p>
+          <div class="fill-block">
+            <div class="fill-label">Customer（顧客） <span class="required">必須</span></div>
+            <div class="fill-hint">ターゲット顧客の特徴・ニーズ・行動パターン</div>
+            <div class="fill-content">
+              <p><strong>顧客の特徴</strong><br>
+                本サービスの主な顧客は、病院勤務の20代後半〜40代前半の勤務医である。特に、夜勤、当直、オンコールなど不規則な勤務形態の影響を受けやすい若手〜中堅層を中心ターゲットとする。彼らは医療知識が高く、自身の健康管理の重要性も理解している一方で、日々の業務負荷が大きく、自分自身の休息やセルフケアを後回しにしやすい特徴を持つ。
+                <br><br>また、勤務医は長時間労働や突発対応により生活リズムが崩れやすく、十分な睡眠を確保しにくい。加えて、近年は医師の働き方改革によって勤務環境や健康確保への意識が高まっており、個人の体調管理だけでなく、組織として医師のコンディションを把握し、支える必要性も増している。こうした背景から、本サービスは勤務医個人のセルフケア支援に加え、勤務シフトと連動することで、雇用側にとっても労務管理や健康配慮の一助となる可能性を持つ。
+                <br><br>
+                <strong>ニーズ</strong>
+                <br>勤務医の大きなニーズは、忙しい日常の中でも無理なく取り入れられる、実用的で継続しやすいケアである。一般的な健康アプリのように、毎日細かく記録したり長時間取り組んだりするものは継続が難しく、短時間で状態を把握でき、その時に必要な行動をすぐに示してくれる仕組みが求められる。特に、勤務後や夜勤明けに心身の緊張を切り替えられず、睡眠の質が低下してしまうことは大きな悩みであるため、睡眠への導入を助ける機能や、疲労状態に応じたセルフケア提案への需要は高い。
+                <br><br>さらに、医師という職業特性上、感覚的・娯楽的なアプローチよりも、一定の根拠や納得感がある設計が求められる。そのため、単なる癒やしやリラクゼーションではなく、睡眠、疲労回復、勤務負荷、生活リズムの乱れといった課題に対して、論理的に支援してくれるサービスであることが重要である。加えて、個人の健康管理だけでなく、勤務シフト情報と連動することで、無理のある働き方や疲労の蓄積を可視化できれば、医療機関側にとっても職員の健康管理や働き方改善の参考となる点に価値がある。
+                <br><br>
+                <strong>行動パターン</strong>
+                <br>
+                勤務医は多忙で可処分時間が少ないため、情報収集やサービス利用においても、短時間で信頼できる情報にアクセスできることを重視する。一般消費者向けの広告や流行よりも、医療職として納得できる情報、同僚や職場内での評判、専門性のある説明などを参考にする傾向が強い。そのため、サービスの利用を検討する際にも、「何となく良さそう」ではなく、「自分の働き方に合っているか」「実際に役立つか」という視点で判断する可能性が高い。
+                <br><br>また、日常の利用行動としては、長時間じっくり使うアプリよりも、限られた隙間時間にすぐ使え、直感的に理解できる設計が求められる。特に、勤務前後や就寝前など、短いタイミングで状態確認やケア提案を受けられる仕組みは相性が良い。購買・導入の面では、個人が自発的に利用を始めるケースに加え、病院や医療機関が福利厚生や健康管理の一環として導入する形も想定できる。その場合、本サービスは勤務医個人の睡眠ケアアプリとしてだけでなく、勤務シフトとの連動により、雇用側が職員の負荷や疲労傾向を把握するための補助ツールとして位置づけることができる。
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="fill-block">
-          <div class="fill-label">Competitor（競合） <span class="required">必須</span></div>
-          <div class="fill-hint">競合サービスの特徴・強み・弱み</div>
-          <div class="fill-content">
-            <p>（競合分析を記載）</p>
+          <div class="fill-block">
+            <div class="fill-label">Competitor（競合） <span class="required">必須</span></div>
+            <div class="fill-hint">競合サービスの特徴・強み・弱み</div>
+            <div class="fill-content">
+              <p>（競合分析を記載）</p>
+            </div>
           </div>
-        </div>
-        <div class="fill-block">
-          <div class="fill-label">Company（自社） <span class="required">必須</span></div>
-          <div class="fill-hint">自分のサービスの強み・提供できる価値</div>
-          <div class="fill-content">
-            <p>（自社分析を記載）</p>
+          <div class="fill-block">
+            <div class="fill-label">Company（自社） <span class="required">必須</span></div>
+            <div class="fill-hint">自分のサービスの強み・提供できる価値</div>
+            <div class="fill-content">
+              <p>（自社分析を記載）</p>
+            </div>
           </div>
-        </div>
 
         </section>
 
@@ -90,13 +106,27 @@
             <div class="fill-label">SWOT分析マトリクス <span class="required">必須</span></div>
             <div class="fill-hint">Strengths（強み）・Weaknesses（弱み）・Opportunities（機会）・Threats（脅威）</div>
 
-        <table class="doc-table">
-          <thead><tr><th></th><th>プラス要因</th><th>マイナス要因</th></tr></thead>
-          <tbody>
-          <tr class="template-row"><td><strong>内部環境</strong></td><td><strong>Strengths（強み）</strong><br>（3つ以上記載）</td><td><strong>Weaknesses（弱み）</strong><br>（3つ以上記載）</td></tr>
-          <tr class="template-row"><td><strong>外部環境</strong></td><td><strong>Opportunities（機会）</strong><br>（3つ以上記載）</td><td><strong>Threats（脅威）</strong><br>（3つ以上記載）</td></tr>
-          </tbody>
-        </table>
+            <table class="doc-table">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>プラス要因</th>
+                  <th>マイナス要因</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="template-row">
+                  <td><strong>内部環境</strong></td>
+                  <td><strong>Strengths（強み）</strong><br>（3つ以上記載）</td>
+                  <td><strong>Weaknesses（弱み）</strong><br>（3つ以上記載）</td>
+                </tr>
+                <tr class="template-row">
+                  <td><strong>外部環境</strong></td>
+                  <td><strong>Opportunities（機会）</strong><br>（3つ以上記載）</td>
+                  <td><strong>Threats（脅威）</strong><br>（3つ以上記載）</td>
+                </tr>
+              </tbody>
+            </table>
 
           </div>
         </section>
@@ -104,27 +134,27 @@
         <section class="section" id="sec3">
           <h2 class="section-title"><span class="section-icon">3</span> STP分析</h2>
 
-        <div class="fill-block">
-          <div class="fill-label">Segmentation（市場細分化） <span class="required">必須</span></div>
-          <div class="fill-hint">市場をどのような基準で分類するか</div>
-          <div class="fill-content">
-            <p>（セグメンテーションを記載）</p>
+          <div class="fill-block">
+            <div class="fill-label">Segmentation（市場細分化） <span class="required">必須</span></div>
+            <div class="fill-hint">市場をどのような基準で分類するか</div>
+            <div class="fill-content">
+              <p>（セグメンテーションを記載）</p>
+            </div>
           </div>
-        </div>
-        <div class="fill-block">
-          <div class="fill-label">Targeting（ターゲット選定） <span class="required">必須</span></div>
-          <div class="fill-hint">どのセグメントを狙うか、その理由</div>
-          <div class="fill-content">
-            <p>（ターゲティングを記載）</p>
+          <div class="fill-block">
+            <div class="fill-label">Targeting（ターゲット選定） <span class="required">必須</span></div>
+            <div class="fill-hint">どのセグメントを狙うか、その理由</div>
+            <div class="fill-content">
+              <p>（ターゲティングを記載）</p>
+            </div>
           </div>
-        </div>
-        <div class="fill-block">
-          <div class="fill-label">Positioning（ポジショニング） <span class="required">必須</span></div>
-          <div class="fill-hint">競合に対してどのような位置づけを取るか</div>
-          <div class="fill-content">
-            <p>（ポジショニングを記載）</p>
+          <div class="fill-block">
+            <div class="fill-label">Positioning（ポジショニング） <span class="required">必須</span></div>
+            <div class="fill-hint">競合に対してどのような位置づけを取るか</div>
+            <div class="fill-content">
+              <p>（ポジショニングを記載）</p>
+            </div>
           </div>
-        </div>
 
         </section>
 
@@ -133,15 +163,42 @@
 
           <div class="fill-block">
             <div class="fill-label">4P・4C分析 <span class="required">必須</span></div>
-        <table class="doc-table">
-          <thead><tr><th>4P（売り手視点）</th><th>内容</th><th>4C（買い手視点）</th><th>内容</th></tr></thead>
-          <tbody>
-          <tr class="template-row"><td><strong>Product</strong><br>（製品）</td><td>（記載）</td><td><strong>Customer Value</strong><br>（顧客価値）</td><td>（記載）</td></tr>
-          <tr class="template-row"><td><strong>Price</strong><br>（価格）</td><td>（記載）</td><td><strong>Cost</strong><br>（顧客コスト）</td><td>（記載）</td></tr>
-          <tr class="template-row"><td><strong>Place</strong><br>（流通）</td><td>（記載）</td><td><strong>Convenience</strong><br>（利便性）</td><td>（記載）</td></tr>
-          <tr class="template-row"><td><strong>Promotion</strong><br>（販促）</td><td>（記載）</td><td><strong>Communication</strong><br>（対話）</td><td>（記載）</td></tr>
-          </tbody>
-        </table>
+            <table class="doc-table">
+              <thead>
+                <tr>
+                  <th>4P（売り手視点）</th>
+                  <th>内容</th>
+                  <th>4C（買い手視点）</th>
+                  <th>内容</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="template-row">
+                  <td><strong>Product</strong><br>（製品）</td>
+                  <td>（記載）</td>
+                  <td><strong>Customer Value</strong><br>（顧客価値）</td>
+                  <td>（記載）</td>
+                </tr>
+                <tr class="template-row">
+                  <td><strong>Price</strong><br>（価格）</td>
+                  <td>（記載）</td>
+                  <td><strong>Cost</strong><br>（顧客コスト）</td>
+                  <td>（記載）</td>
+                </tr>
+                <tr class="template-row">
+                  <td><strong>Place</strong><br>（流通）</td>
+                  <td>（記載）</td>
+                  <td><strong>Convenience</strong><br>（利便性）</td>
+                  <td>（記載）</td>
+                </tr>
+                <tr class="template-row">
+                  <td><strong>Promotion</strong><br>（販促）</td>
+                  <td>（記載）</td>
+                  <td><strong>Communication</strong><br>（対話）</td>
+                  <td>（記載）</td>
+                </tr>
+              </tbody>
+            </table>
 
           </div>
         </section>
@@ -150,28 +207,28 @@
           <h2 class="section-title"><span class="section-icon">5</span> 競合サイト分析</h2>
 
 
-        <div class="fill-block">
-          <div class="fill-label">競合サイト 1 <span class="required">必須</span></div>
-          <div class="fill-hint">サイト名・URL・スクリーンショット・分析</div>
-          <div class="fill-content">
-            <p>（競合サイト1の分析を記載）
-（スクリーンショットを配置：&lt;img src=&quot;../images/competitor1.png&quot; alt=&quot;競合サイト1&quot;&gt;）</p>
+          <div class="fill-block">
+            <div class="fill-label">競合サイト 1 <span class="required">必須</span></div>
+            <div class="fill-hint">サイト名・URL・スクリーンショット・分析</div>
+            <div class="fill-content">
+              <p>（競合サイト1の分析を記載）
+                （スクリーンショットを配置：&lt;img src=&quot;../images/competitor1.png&quot; alt=&quot;競合サイト1&quot;&gt;）</p>
+            </div>
           </div>
-        </div>
-        <div class="fill-block">
-          <div class="fill-label">競合サイト 2 <span class="required">必須</span></div>
-          <div class="fill-hint">サイト名・URL・スクリーンショット・分析</div>
-          <div class="fill-content">
-            <p>（競合サイト2の分析を記載）</p>
+          <div class="fill-block">
+            <div class="fill-label">競合サイト 2 <span class="required">必須</span></div>
+            <div class="fill-hint">サイト名・URL・スクリーンショット・分析</div>
+            <div class="fill-content">
+              <p>（競合サイト2の分析を記載）</p>
+            </div>
           </div>
-        </div>
-        <div class="fill-block">
-          <div class="fill-label">競合サイト 3 <span class="required">必須</span></div>
-          <div class="fill-hint">サイト名・URL・スクリーンショット・分析</div>
-          <div class="fill-content">
-            <p>（競合サイト3の分析を記載）</p>
+          <div class="fill-block">
+            <div class="fill-label">競合サイト 3 <span class="required">必須</span></div>
+            <div class="fill-hint">サイト名・URL・スクリーンショット・分析</div>
+            <div class="fill-content">
+              <p>（競合サイト3の分析を記載）</p>
+            </div>
           </div>
-        </div>
 
         </section>
 
@@ -181,4 +238,5 @@
 
   <script src="../js/main.js"></script>
 </body>
+
 </html>

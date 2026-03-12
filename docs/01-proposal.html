@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>企画提案書 -  プロジェクトアーカイブ</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+  <title>企画提案書 - プロジェクトアーカイブ</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
   <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
   <button class="hamburger" aria-label="メニュー">
     <span></span><span></span><span></span>
   </button>
 
   <div class="page-wrapper">
-  <aside class="sidebar" data-nav-level="docs"></aside>
+    <aside class="sidebar" data-nav-level="docs"></aside>
 
     <main class="main-content">
       <header class="doc-header">
@@ -38,7 +41,8 @@
           </div>
           <div class="external-link-input">
             <input type="text" placeholder="https://docs.google.com/spreadsheets/d/xxxxx" id="external-link-01">
-            <a href="#" class="link-btn" onclick="window.open(document.getElementById('external-link-01').value || 'https://docs.google.com', '_blank'); return false;">
+            <a href="#" class="link-btn"
+              onclick="window.open(document.getElementById('external-link-01').value || 'https://docs.google.com', '_blank'); return false;">
               <span class="material-symbols-outlined">open_in_new</span>
               開く
             </a>
@@ -60,124 +64,270 @@
         <section class="section" id="sec1">
           <h2 class="section-title"><span class="section-icon">1</span> プロジェクト概要</h2>
 
-        <div class="fill-block">
-          <div class="fill-label">サービス名 <span class="required">必須</span></div>
-          <div class="fill-hint">制作するWebサービスの名前</div>
-          <div class="fill-content">
-            <p>（サービス名を入力）</p>
+          <div class="fill-block">
+            <div class="fill-label">サービス名 <span class="required">必須</span></div>
+            <div class="fill-hint">制作するWebサービスの名前</div>
+            <div class="fill-content">
+              <p>Re:Rhythm D</p>
+            </div>
           </div>
-        </div>
-        <div class="fill-block">
-          <div class="fill-label">コンセプト <span class="required">必須</span></div>
-          <div class="fill-hint">サービスを一言で表す説明（キャッチコピー＋1〜2文の説明）</div>
-          <div class="fill-content">
-            <p>（キャッチコピーとコンセプト説明を入力）</p>
+          <div class="fill-block">
+            <div class="fill-label">コンセプト <span class="required">必須</span></div>
+            <div class="fill-hint">サービスを一言で表す説明（キャッチコピー＋1〜2文の説明）</div>
+            <div class="fill-content">
+              <p>勤務医が自分の変化を実感し、セルフケアを続けられる世界へ</p>
+            </div>
           </div>
-        </div>
-        <div class="fill-block">
-          <div class="fill-label">ターゲットユーザー <span class="required">必須</span></div>
-          <div class="fill-hint">このサービスを使う主なユーザー像（概要レベル）</div>
-          <div class="fill-content">
-            <p>（ターゲットユーザーの概要を入力）</p>
+          <div class="fill-block">
+            <div class="fill-label">ターゲットユーザー <span class="required">必須</span></div>
+            <div class="fill-hint">このサービスを使う主なユーザー像（概要レベル）</div>
+            <div class="fill-content">
+              <p>本サービスの主なターゲットユーザーは、長時間勤務や夜勤、不規則なシフト勤務を行う勤務医です。
+                日々の業務負担が大きく、睡眠や休息などのセルフケアが後回しになりやすい人を想定しています。
+                <br>特に、心身のコンディションを整える必要性は感じていても、忙しさから継続が難しい勤務医に向けて設計したサービスです。
+              </p>
+            </div>
           </div>
-        </div>
 
         </section>
 
         <section class="section" id="sec2">
           <h2 class="section-title"><span class="section-icon">2</span> 背景と課題</h2>
 
-        <div class="fill-block">
-          <div class="fill-label">市場の現状 <span class="required">必須</span></div>
-          <div class="fill-hint">このサービスが存在する市場の現状と課題</div>
-          <div class="fill-content">
-            <p>（市場の現状を記載）</p>
+          <div class="fill-block">
+            <div class="fill-label">市場の現状 <span class="required">必須</span></div>
+            <div class="fill-hint">このサービスが存在する市場の現状と課題</div>
+            <div class="fill-content">
+              <p>
+                医療従事者、とくに勤務医は、長時間勤務や夜勤、不規則なシフト勤務によって心身への負担が大きく、睡眠や休息の質が低下しやすい状況にあります。こうした負担は、疲労の蓄積だけでなく、バーンアウトや離職、メンタルヘルス不調にもつながる社会的な課題となっています。
+                <br><br>一方で、既存の睡眠アプリやセルフケアサービスの多くは一般的な生活リズムを前提に設計されており、勤務医特有の勤務パターンに十分対応できていません。そのため、医療現場の実態に即した支援サービスが求められています。
+                <br>
+              <ul>
+                <li>長時間勤務・夜勤・不規則シフトにより、睡眠障害や疲労の蓄積が起こりやすい</li>
+                <li>バーンアウトや離職、うつ病発症など、心身の不調につながるリスクが高い</li>
+                <li>既存アプリでは、勤務医特有の生活リズムや勤務パターンに最適化された支援が不足している</li>
+                <li>セルフケアの必要性を理解していても、忙しさから継続しにくい環境にある</li>
+              </ul>
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="fill-block">
-          <div class="fill-label">解決すべき課題 <span class="required">必須</span></div>
-          <div class="fill-hint">本プロジェクトで解決を目指す具体的な課題（3つ程度）</div>
-          <div class="fill-content">
-            <p>（課題を3つ入力）</p>
+          <div class="fill-block">
+            <div class="fill-label">解決すべき課題 <span class="required">必須</span></div>
+            <div class="fill-hint">本プロジェクトで解決を目指す具体的な課題（3つ程度）</div>
+            <div class="fill-content">
+              <p>勤務医はセルフケアの必要性を感じながらも、日々の忙しさによって自分の状態を客観的に把握する余裕がなく、休息や回復の行動を習慣化しにくいという課題があります。
+                <br><br>特に「短時間でも質の高い休息を取りたい」「勤務後すぐに眠れない」「大切だと分かっていても続かない」といった悩みがあり、一般的な健康管理サービスでは十分に支援しきれていません。
+                <br><br>
+                <strong>本プロジェクトでは、以下の課題解決を目指しました。</strong>
+              <ul>
+                <li>勤務医が自分のコンディションを客観的に把握できるようにすること</li>
+                <li>不規則な勤務リズムに合わせて、無理なく実践できるセルフケア方法を提示すること</li>
+                <li>短時間でも休息や回復につながる行動を取りやすくすること</li>
+                <li>日々の行動と成果を可視化し、セルフケアを継続しやすい仕組みをつくること</li>
+                <li>睡眠を起点として、心身のコンディション改善につなげること</li>
+              </ul>
+              </p>
+            </div>
           </div>
-        </div>
 
         </section>
 
         <section class="section" id="sec3">
           <h2 class="section-title"><span class="section-icon">3</span> 提案するソリューション</h2>
 
-        <div class="fill-block">
-          <div class="fill-label">サービスの特長 <span class="required">必須</span></div>
-          <div class="fill-hint">競合と差別化するサービスの特長を3つ</div>
-          <div class="fill-content">
-            <p>（サービスの特長を3つ記載）</p>
+          <div class="fill-block">
+            <div class="fill-label">サービスの特長 <span class="required">必須</span></div>
+            <div class="fill-hint">競合と差別化するサービスの特長を3つ</div>
+            <div class="fill-content">
+              <p><strong>
+                  1. 勤務医に特化したシフト連動型の設計</strong><br>
+                一般的な健康管理アプリとは異なり、勤務シフトや夜勤明けといった勤務医特有の生活リズムに合わせて使える設計を採用しています。勤務前・勤務中・勤務後の状況に応じて必要なセルフケアを提示できる点が特長です。</p>
+              <br><strong>2. 睡眠を起点にしたセルフケア支援</strong><br>
+              本サービスでは、セルフケアの土台となる睡眠改善を中心テーマに据えています。睡眠データの確認だけでなく、呼吸法やストレッチ、回復プログラムなどを組み合わせることで、勤務医が日常の中で実践しやすい支援を行います。
+
+              <br><br><strong>3. エビデンスに基づく納得感のあるフィードバック</strong><br>
+              PubMedなどの医学的エビデンスをもとに、AIによる要約や提案を取り入れることで、医療従事者にとって納得感のある情報提供を実現します。感覚的なアドバイスではなく、根拠に基づいたサポートを行うことで、継続利用につながる体験を目指しました。
+            </div>
           </div>
-        </div>
 
         </section>
 
         <section class="section" id="sec4">
           <h2 class="section-title"><span class="section-icon">4</span> 制作範囲</h2>
 
-        <div class="fill-block">
-          <div class="fill-label">Webサイト（フロントエンド）の範囲 <span class="required">必須</span></div>
-          <div class="fill-hint">制作するWebサイトのページ一覧と概要</div>
-          <div class="fill-content">
-            <p>（Webサイトのページ一覧を記載）</p>
+          <div class="fill-block">
+            <div class="fill-label">Webサイト（フロントエンド）の範囲 <span class="required">必須</span></div>
+            <div class="fill-hint">制作するWebサイトのページ一覧と概要</div>
+            <div class="fill-content">
+              <p>勤務医向けセルフケアアプリ「Re:Rhythm D」の広告用LPを制作する。
+                <br><br>
+              <ul>
+                <li>サービス紹介LP</li>
+                <li>LP下部の資料請求フォーム</li>
+                <li>利用開始案内ページ</li>
+                <li>新規登録ページ</li>
+                <li>ログインページ</li>
+                <li>各完了画面</li>
+
+              </ul>
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="fill-block">
-          <div class="fill-label">Webアプリケーション（サーバーサイド）の範囲 <span class="required">必須</span></div>
-          <div class="fill-hint">制作するWebアプリケーションの機能概要</div>
-          <div class="fill-content">
-            <p>（Webアプリの機能一覧を記載）</p>
+          <div class="fill-block">
+            <div class="fill-label">Webアプリケーション（サーバーサイド）の範囲 <span class="required">必須</span></div>
+            <div class="fill-hint">制作するWebアプリケーションの機能概要</div>
+            <div class="fill-content">
+              <p>
+              <ul>
+                <li>新規登録機能</li>
+                <li>ログイン認証機能</li>
+                <li>資料請求フォームの送信処理</li>
+                <li>入力内容のバリデーション</li>
+                <li>ユーザー情報および問い合わせ情報の保存・管理</li>
+              </ul>
+              <br>フロントエンドで入力された情報を適切に処理し、利用開始および資料請求に必要な機能を提供する。</p>
+            </div>
           </div>
-        </div>
 
         </section>
 
         <section class="section" id="sec5">
           <h2 class="section-title"><span class="section-icon">5</span> 使用技術</h2>
 
-<p style="font-size:13px;color:var(--text-light);margin-bottom:8px;">※ 自分の実際の使用技術に合わせて編集してください</p>
-        <table class="doc-table">
-          <thead><tr><th>区分</th><th>技術</th><th>用途</th></tr></thead>
-          <tbody>
-          <tr class="template-row"><td>フロントエンド</td><td>HTML / CSS / JavaScript</td><td>Webサイト構築</td></tr>
-          <tr class="template-row"><td>CSSフレームワーク</td><td>（Tailwind CSS 等）</td><td>スタイリング効率化</td></tr>
-          <tr class="template-row"><td>バックエンド</td><td>Java / Spring Boot</td><td>Webアプリケーション</td></tr>
-          <tr class="template-row"><td>テンプレートエンジン</td><td>Thymeleaf</td><td>画面表示</td></tr>
-          <tr class="template-row"><td>O/Rマッピング</td><td>MyBatis</td><td>データベース操作</td></tr>
-          <tr class="template-row"><td>データベース</td><td>（MySQL / H2 等）</td><td>データ永続化</td></tr>
-          <tr class="template-row"><td>デザインツール</td><td>Figma</td><td>ワイヤーフレーム・モックアップ</td></tr>
-          <tr class="template-row"><td>バージョン管理</td><td>Git / GitHub</td><td>ソースコード管理・公開</td></tr>
-          <tr class="template-row"><td>AI活用</td><td>ChatGPT / Claude</td><td>プロンプトプログラミング</td></tr>
-          </tbody>
-        </table>
+          <p style="font-size:13px;color:var(--text-light);margin-bottom:8px;">※ 自分の実際の使用技術に合わせて編集してください</p>
+          <table class="doc-table">
+            <thead>
+              <tr>
+                <th>区分</th>
+                <th>技術</th>
+                <th>用途</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="template-row">
+                <td>フロントエンド</td>
+                <td>HTML / CSS / JavaScript</td>
+                <td>Webサイト構築</td>
+              </tr>
+              <tr class="template-row">
+                <td>CSSフレームワーク</td>
+                <td>（Tailwind CSS 等）</td>
+                <td>スタイリング効率化</td>
+              </tr>
+              <tr class="template-row">
+                <td>バックエンド</td>
+                <td>Java / Spring Boot</td>
+                <td>Webアプリケーション</td>
+              </tr>
+              <tr class="template-row">
+                <td>テンプレートエンジン</td>
+                <td>Thymeleaf</td>
+                <td>画面表示</td>
+              </tr>
+              <tr class="template-row">
+                <td>O/Rマッピング</td>
+                <td>MyBatis</td>
+                <td>データベース操作</td>
+              </tr>
+              <tr class="template-row">
+                <td>データベース</td>
+                <td>（MySQL / H2 等）</td>
+                <td>データ永続化</td>
+              </tr>
+              <tr class="template-row">
+                <td>デザインツール</td>
+                <td>Figma</td>
+                <td>ワイヤーフレーム・モックアップ</td>
+              </tr>
+              <tr class="template-row">
+                <td>バージョン管理</td>
+                <td>Git / GitHub</td>
+                <td>ソースコード管理・公開</td>
+              </tr>
+              <tr class="template-row">
+                <td>AI活用</td>
+                <td>ChatGPT / Claude</td>
+                <td>プロンプトプログラミング</td>
+              </tr>
+            </tbody>
+          </table>
 
         </section>
 
         <section class="section" id="sec6">
           <h2 class="section-title"><span class="section-icon">6</span> スケジュール</h2>
 
-        <table class="doc-table">
-          <thead><tr><th>期間</th><th>フェーズ</th><th>内容</th></tr></thead>
-          <tbody>
-          <tr class="template-row"><td>Day 1〜3</td><td>企画</td><td>マーケットリサーチ・企画立案</td></tr>
-          <tr class="template-row"><td>Day 4〜5</td><td>設計</td><td>ペルソナ・サイトマップ設計</td></tr>
-          <tr class="template-row"><td>Day 6〜7</td><td>デザイン</td><td>ワイヤーフレーム・デザインガイドライン</td></tr>
-          <tr class="template-row"><td>Day 8〜12</td><td>フロント実装</td><td>HTML/CSS/JavaScript によるWebサイト構築</td></tr>
-          <tr class="template-row"><td>Day 13〜14</td><td>プロジェクトアーカイブ構築</td><td>プロジェクトアーカイブサイト・ドキュメント配置</td></tr>
-          <tr class="template-row"><td>Day 15〜16</td><td>前半完了</td><td>GitHub Pages 公開・前半振り返り</td></tr>
-          <tr class="template-row"><td>Day 17〜19</td><td>バックエンド設計</td><td>仕様書・DB設計書作成</td></tr>
-          <tr class="template-row"><td>Day 20〜24</td><td>バックエンド実装</td><td>Spring Boot アプリケーション開発</td></tr>
-          <tr class="template-row"><td>Day 25〜27</td><td>追加機能</td><td>検索・認証・追加機能の実装</td></tr>
-          <tr class="template-row"><td>Day 28〜29</td><td>テスト</td><td>テスト実施・バグ修正</td></tr>
-          <tr class="template-row"><td>Day 30〜31</td><td>ドキュメント</td><td>振り返り・技術記事・最終調整</td></tr>
-          <tr class="template-row"><td>Day 32</td><td>最終提出</td><td>プロジェクトアーカイブ最終版公開</td></tr>
-          </tbody>
-        </table>
+          <table class="doc-table">
+            <thead>
+              <tr>
+                <th>期間</th>
+                <th>フェーズ</th>
+                <th>内容</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="template-row">
+                <td>Day 1〜3</td>
+                <td>企画</td>
+                <td>マーケットリサーチ・企画立案</td>
+              </tr>
+              <tr class="template-row">
+                <td>Day 4〜5</td>
+                <td>設計</td>
+                <td>ペルソナ・サイトマップ設計</td>
+              </tr>
+              <tr class="template-row">
+                <td>Day 6〜7</td>
+                <td>デザイン</td>
+                <td>ワイヤーフレーム・デザインガイドライン</td>
+              </tr>
+              <tr class="template-row">
+                <td>Day 8〜12</td>
+                <td>フロント実装</td>
+                <td>HTML/CSS/JavaScript によるWebサイト構築</td>
+              </tr>
+              <tr class="template-row">
+                <td>Day 13〜14</td>
+                <td>プロジェクトアーカイブ構築</td>
+                <td>プロジェクトアーカイブサイト・ドキュメント配置</td>
+              </tr>
+              <tr class="template-row">
+                <td>Day 15〜16</td>
+                <td>前半完了</td>
+                <td>GitHub Pages 公開・前半振り返り</td>
+              </tr>
+              <tr class="template-row">
+                <td>Day 17〜19</td>
+                <td>バックエンド設計</td>
+                <td>仕様書・DB設計書作成</td>
+              </tr>
+              <tr class="template-row">
+                <td>Day 20〜24</td>
+                <td>バックエンド実装</td>
+                <td>Spring Boot アプリケーション開発</td>
+              </tr>
+              <tr class="template-row">
+                <td>Day 25〜27</td>
+                <td>追加機能</td>
+                <td>検索・認証・追加機能の実装</td>
+              </tr>
+              <tr class="template-row">
+                <td>Day 28〜29</td>
+                <td>テスト</td>
+                <td>テスト実施・バグ修正</td>
+              </tr>
+              <tr class="template-row">
+                <td>Day 30〜31</td>
+                <td>ドキュメント</td>
+                <td>振り返り・技術記事・最終調整</td>
+              </tr>
+              <tr class="template-row">
+                <td>Day 32</td>
+                <td>最終提出</td>
+                <td>プロジェクトアーカイブ最終版公開</td>
+              </tr>
+            </tbody>
+          </table>
 
         </section>
 
@@ -187,4 +337,5 @@
 
   <script src="../js/main.js"></script>
 </body>
+
 </html>
